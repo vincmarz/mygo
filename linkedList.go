@@ -72,7 +72,7 @@ func size(t *Node) int {
 	}
 
 	i := 0
-	for t != nil {
+	for t != nil { //to increment node list level
 		i++
 		t = t.Next
 	}
